@@ -15,7 +15,8 @@
 import PageFooter from "./components/PageFooter.vue";
 import TeamCard from "./components/TeamCard.vue";
 import imagenAngie from "../src/assets/angie_lizeth_gomez_acevedo.jpeg"
-
+import imagenMaria from "../src/assets/maria_alejandra_garcia_ortega.jpg"
+import imagenValentina from "../src/assets/valentina_mejia_rios.jpeg"
 
 export default {
   name: "App",
@@ -38,14 +39,14 @@ export default {
           nombre: "Valentina Mejia Rios",
           descripcion: "Descripcion",
           rol: "Desarrolladora Backend",
-          imagen: "../src/assets/valentina_mejia_rios.jpeg",
+          imagen: imagenValentina,
         },
         {
           codigo: 3,
           nombre: "Maria Alejandra García Ortega",
           descripcion: "Descripcion",
           rol: "Desarrolladora Frontend",
-          imagen: "../src/assets/maria_alejandra_garcia_ortega.JPG",
+          imagen: imagenMaria,
         },
         {
           codigo: 4,
