@@ -37,6 +37,11 @@
           Desarrolladora Frontend <br />
           garciaomalejandra@gmail.com
         </p>
+        <p>
+          <strong>Jhon Nelson Beltrán Pinzón</strong> <br />
+          Tester <br />
+          jnbeltranp@gmail.com
+        </p>
       </div>
     </footer>
   </div>
