@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <top-menu></top-menu>
+    <top-banner></top-banner>
     <div class="container">
       <div class="row mb-5">
         <div class="col mt-5 " v-for="(item, index) in team" :key="index">
@@ -18,12 +20,16 @@ import imagenAngie from "../src/assets/angie_lizeth_gomez_acevedo.jpeg"
 import imagenMaria from "../src/assets/maria_alejandra_garcia_ortega.jpg"
 import imagenValentina from "../src/assets/valentina_mejia_rios.jpeg"
 import imagenJhon from "../src/assets/jhon_n_beltran.jpeg"
+import TopMenu from './components/TopMenu.vue';
+import TopBanner from './components/TopBanner.vue';
 
 export default {
   name: "App",
   components: {
     PageFooter,
     TeamCard,
+    TopMenu,
+    TopBanner,
   },
   data() {
     return {
