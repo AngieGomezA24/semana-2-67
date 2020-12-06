@@ -2,6 +2,7 @@
   <div id="app">
     <top-menu></top-menu>
     <top-banner></top-banner>
+    <section-api></section-api>
     <div class="container">
       <div class="row mb-5">
         <div class="col mt-5 " v-for="(item, index) in team" :key="index">
@@ -22,6 +23,7 @@ import imagenValentina from "../src/assets/valentina_mejia_rios.jpeg"
 import imagenJhon from "../src/assets/jhon_n_beltran.jpeg"
 import TopMenu from './components/TopMenu.vue';
 import TopBanner from './components/TopBanner.vue';
+import SectionApi from './components/SectionApi.vue';
 
 export default {
   name: "App",
@@ -30,6 +32,7 @@ export default {
     TeamCard,
     TopMenu,
     TopBanner,
+    SectionApi,
   },
   data() {
     return {
