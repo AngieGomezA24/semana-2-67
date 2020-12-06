@@ -18,6 +18,7 @@
 
 <body>
     <div id="app"></div>
+    
     <!-- Google Books -->
     <div class="container">
         <!-- Fila 1 -->
@@ -33,8 +34,9 @@
                     <div id="bookContainer_01">
                     </div>
 
-                    <a href="https://books.google.com.co/books?id=q8XweiNdep8C&pg=PA45&dq=harry&hl=&cd=1&source=gbs_api#v=onepage&q=harry&f=false"
-                        class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    <div id="URL_0">
+                        <a :href='url' class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    </div>
                 </div>
             </div>
 
@@ -49,8 +51,9 @@
                     <div id="bookContainer_11">
                     </div>
 
-                    <a href="https://books.google.com.co/books?id=uoxUloj09YEC&pg=PA143&dq=harry&hl=&cd=2&source=gbs_api#v=onepage&q=harry&f=false"
-                        class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    <div id="URL_1">
+                        <a :href='url' class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,8 +71,9 @@
                     <div id="bookContainer_21">
                     </div>
 
-                    <a href="https://books.google.com.co/books?id=xAKMDwAAQBAJ&pg=PT537&dq=harry&hl=&cd=5&source=gbs_api#v=onepage&q=harry&f=false"
-                        class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    <div id="URL_2">
+                        <a :href='url' class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    </div>
                 </div>
             </div>
 
@@ -84,8 +88,9 @@
                     <div id="bookContainer_31">
                     </div>
 
-                    <a href="https://books.google.com.co/books?id=fQBiAwAAQBAJ&pg=PT20&dq=harry&hl=&cd=4&source=gbs_api#v=onepage&q=harry&f=false"
-                        class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    <div id="URL_3">
+                        <a :href='url' class="btn btn-outline-secondary" role="button">Leer libro</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,6 +104,7 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="./app.js"></script>
     <scrip src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></scrip>
 </body>
