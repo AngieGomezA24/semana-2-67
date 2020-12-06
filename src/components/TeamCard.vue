@@ -4,7 +4,7 @@
       <div class="container">
         <div class="card text-dark ">
           <div class="d-flex justify-content-center p-2">
-            <img class="card-image" :src="member.imagen" alt="Fotografia Equipo" />
+            <img class="card-image" :src="member.image" alt="Fotografia Equipo" />
           </div>
           <div class="card-body">
             <h3 class="card-title">{{ member.nombre }}</h3>
