@@ -9,10 +9,7 @@
                         <nav class="nav-list">
                             <ul class="main-menu">
                                 <li class="main-menu__item">
-                                    <a href="index.html" class="main-menu__link">Inicio</a>
-                                </li>
-                                <li class="main-menu__item">
-                                    <a href="index.html#services" class="main-menu__link">Servicios</a>
+                                    <a href="index.html" class="main-menu__link" >Inicio</a>
                                 </li>
                                 <li class="main-menu__item">
                                     <a href="index.html#news" class="main-menu__link">Noticias</a>
@@ -24,7 +21,6 @@
                         </nav>
                     </div>
                     </div>
-
     </div>
 
 </template>
@@ -35,10 +31,7 @@ export default {
 }
 </script>
 
-<style>
-
-
-
+<style scoped>
 .header{
     background-color: #85C1E9 ;
     height: auto;
@@ -63,6 +56,7 @@ export default {
 .site-title{
     margin: 0;
     padding: 0.36em 0;
+    text-align: center;
 }
 
 
@@ -70,7 +64,7 @@ export default {
 .nav-list{
     padding: 0.25em 0;
     list-style-type: none;
-    text-align: end;
+    text-align: center;
     width: 100%
 }
 
@@ -78,6 +72,7 @@ export default {
     padding: 1em 15px;
     display: inline-block;
     text-decoration: none;
+    text-align: center;
     color: #3e3e3e;
 
 }
@@ -85,12 +80,6 @@ export default {
 .nav-element:hover{
     text-decoration: underline;
     font-weight: bold;
-}
-
-.image-text{
-    margin: 0;
-    padding: 9% 0;
-    text-align: center;
 }
 
 .main-menu{
@@ -105,17 +94,24 @@ export default {
 
 main-menu__item{
     line-height: 3;
-    text-align: center;
+    text-align: end;
+
 }
 
 .main-menu__link{
     text-decoration: none;
     font-size: 1em;
     color: #3e3e3e;
+    text-align: end;
 }
 
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+    
 }
 </style>
+
+
+
+
