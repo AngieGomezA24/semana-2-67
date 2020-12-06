@@ -14,7 +14,7 @@ const testApi = async () => {
     let resultJson;
     if (resultText.ok) {
         resultJson = await resultText.json();
-        console.log(resultJson);
+        // console.log(resultJson);
         printOnScreen_0(resultJson.items[0]);
         printOnScreen_1(resultJson.items[1]);
         printOnScreen_2(resultJson.items[4]);
@@ -47,6 +47,10 @@ const printOnScreen_0 = (dataText) => {
         bookSearchFragment.innerHTML = "<br><b>Fragmento: </b><br>" + dataText.searchInfo.textSnippet;
         bookContainer_01.appendChild(bookSearchFragment);
     }
+
+    var URL = new Vue({el: '#URL_0',
+    data:{url: dataText.volumeInfo.previewLink}});
+    var bookURL = dataText.volumeInfo.previewLink;
 }
 const printOnScreen_1 = (dataText) => {
 
@@ -73,6 +77,10 @@ const printOnScreen_1 = (dataText) => {
         bookSearchFragment.innerHTML = "<br><b>Fragmento: </b><br>" + dataText.searchInfo.textSnippet;
         bookContainer_11.appendChild(bookSearchFragment);
     }
+
+    var URL = new Vue({el: '#URL_1',
+    data:{url: dataText.volumeInfo.previewLink}});
+    var bookURL = dataText.volumeInfo.previewLink;
 }
 const printOnScreen_2 = (dataText) => {
 
@@ -99,6 +107,10 @@ const printOnScreen_2 = (dataText) => {
         bookSearchFragment.innerHTML = "<br><b>Fragmento: </b><br>" + dataText.searchInfo.textSnippet;
         bookContainer_21.appendChild(bookSearchFragment);
     }
+
+    var URL = new Vue({el: '#URL_2',
+    data:{url: dataText.volumeInfo.previewLink}});
+    var bookURL = dataText.volumeInfo.previewLink;
 }
 const printOnScreen_3 = (dataText) => {
 
@@ -125,4 +137,8 @@ const printOnScreen_3 = (dataText) => {
         bookSearchFragment.innerHTML = "<br><b>Fragmento: </b><br>" + dataText.searchInfo.textSnippet;
         bookContainer_31.appendChild(bookSearchFragment);
     }
+
+    var URL = new Vue({el: '#URL_3',
+    data:{url: dataText.volumeInfo.previewLink}});
+    var bookURL = dataText.volumeInfo.previewLink;
 }
