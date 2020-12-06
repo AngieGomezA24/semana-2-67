@@ -10,7 +10,7 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title>
                         <rect
-                            width="100%" height="100%" fill="#e6b3ff"></rect><text x="50%" y="50%" fill="#e6b3ff" dy=".3em">First slide</text></svg>
+                            width="100%" height="100%" fill="#e6b39"></rect><text x="50%" y="50%" fill="#e6b3ff" dy=".3em">First slide</text></svg>
                     <div class="carousel-caption d-none d-md-block">
                         <img src="../assets/s1.jpg" alt="imagen1" width="900px">
                     </div>
